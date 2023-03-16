@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 170; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -402,6 +402,7 @@ img {
 
 .skills__title {
   font-size: var(--h3-font-size);
+  text-align: center;
 }
 
 .skills__titles {
@@ -413,6 +414,22 @@ img {
 .skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+}
+
+.skills__icon-html {
+  color: #FF7F50;
+}
+
+.skills__icon-css {
+  color: #4169E1;
+}
+
+.skills__icon-js {
+  color: #FFFF00;
+}
+
+.skills__icon-react {
+  color: #1E90FF;
 }
 
 .skills__bar,
